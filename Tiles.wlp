@@ -1,0 +1,1517 @@
+{
+    "settings": {
+        "workspace": {
+            "main": "WLESweeper.wlp"
+        },
+        "project": {
+            "prefab": true,
+            "name": "Tiles",
+            "version": [
+                1,
+                3,
+                3
+            ]
+        }
+    },
+    "files": {
+        "61": {
+            "fileName": "assets/models/bomb_teamRed.gltf.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true
+        },
+        "67": {
+            "fileName": "assets/models/floor_tile_large.gltf.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true
+        },
+        "72": {
+            "fileName": "assets/textures/dungeon_texture.png",
+            "importerName": ""
+        },
+        "78": {
+            "fileName": "assets/fonts/CarbonBlock.ttf",
+            "importerName": ""
+        },
+        "127": {
+            "fileName": "assets/models/floor_tile_large_rocks.gltf.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true
+        },
+        "137": {
+            "fileName": "assets/models/powerupBomb.gltf.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true
+        },
+        "147": {
+            "fileName": "assets/models/flag_teamYellow.gltf.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true
+        }
+    },
+    "images": {
+        "62": {
+            "link": {
+                "name": "dungeon_texture",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            }
+        },
+        "70": {
+            "link": {
+                "name": "dungeon_texture.png",
+                "file": "assets\\textures\\dungeon_texture.png"
+            }
+        },
+        "122": {
+            "link": {
+                "name": "dungeon_texture",
+                "file": "assets\\models\\floor_tile_large_rocks.gltf.glb"
+            }
+        }
+    },
+    "shaders": {
+        "1": {
+            "link": {
+                "name": "AtmosphericSky.frag",
+                "file": "default"
+            }
+        },
+        "2": {
+            "link": {
+                "name": "Background.frag",
+                "file": "default"
+            }
+        },
+        "3": {
+            "link": {
+                "name": "lib\\Color.glsl",
+                "file": "default"
+            }
+        },
+        "4": {
+            "link": {
+                "name": "lib\\Compatibility.frag",
+                "file": "default"
+            }
+        },
+        "5": {
+            "link": {
+                "name": "lib\\CoordinateSystems.glsl",
+                "file": "default"
+            }
+        },
+        "6": {
+            "link": {
+                "name": "Depth.frag",
+                "file": "default"
+            }
+        },
+        "8": {
+            "link": {
+                "name": "DistanceFieldVector.frag",
+                "file": "default"
+            }
+        },
+        "10": {
+            "link": {
+                "name": "Dynamic.vert",
+                "file": "default"
+            }
+        },
+        "11": {
+            "link": {
+                "name": "Flat.frag",
+                "file": "default"
+            }
+        },
+        "14": {
+            "link": {
+                "name": "FullScreenTriangle.vert",
+                "file": "default"
+            }
+        },
+        "15": {
+            "link": {
+                "name": "lib\\GI.frag",
+                "file": "default"
+            }
+        },
+        "16": {
+            "link": {
+                "name": "lib\\Inputs.frag",
+                "file": "default"
+            }
+        },
+        "17": {
+            "link": {
+                "name": "lib\\Lights.frag",
+                "file": "default"
+            }
+        },
+        "18": {
+            "link": {
+                "name": "lib\\Materials.frag",
+                "file": "default"
+            }
+        },
+        "19": {
+            "link": {
+                "name": "lib\\Math.glsl",
+                "file": "default"
+            }
+        },
+        "20": {
+            "link": {
+                "name": "MeshVisualizer.frag",
+                "file": "default"
+            }
+        },
+        "22": {
+            "link": {
+                "name": "lib\\MorphTargets.glsl",
+                "file": "default"
+            }
+        },
+        "23": {
+            "link": {
+                "name": "lib\\Packing.frag",
+                "file": "default"
+            }
+        },
+        "24": {
+            "link": {
+                "name": "Phong.frag",
+                "file": "default"
+            }
+        },
+        "29": {
+            "link": {
+                "name": "Physical.frag",
+                "file": "default"
+            }
+        },
+        "32": {
+            "link": {
+                "name": "lib\\PhysicalBSDF.glsl",
+                "file": "default"
+            }
+        },
+        "33": {
+            "link": {
+                "name": "lib\\Quaternion.glsl",
+                "file": "default"
+            }
+        },
+        "34": {
+            "link": {
+                "name": "Skinning.vert",
+                "file": "default"
+            }
+        },
+        "35": {
+            "link": {
+                "name": "Sky.frag",
+                "file": "default"
+            }
+        },
+        "36": {
+            "link": {
+                "name": "lib\\SkyProcedural.glsl",
+                "file": "default"
+            }
+        },
+        "37": {
+            "link": {
+                "name": "lib\\Slug.frag",
+                "file": "default"
+            }
+        },
+        "38": {
+            "link": {
+                "name": "lib\\Slug.vert",
+                "file": "default"
+            }
+        },
+        "39": {
+            "link": {
+                "name": "lib\\Surface.frag",
+                "file": "default"
+            }
+        },
+        "40": {
+            "link": {
+                "name": "Text.frag",
+                "file": "default"
+            }
+        },
+        "42": {
+            "link": {
+                "name": "Text.vert",
+                "file": "default"
+            }
+        },
+        "43": {
+            "link": {
+                "name": "lib\\Textures.frag",
+                "file": "default"
+            }
+        },
+        "44": {
+            "link": {
+                "name": "TileFeedback.frag",
+                "file": "default"
+            }
+        },
+        "46": {
+            "link": {
+                "name": "lib\\Uniforms.glsl",
+                "file": "default"
+            }
+        },
+        "47": {
+            "link": {
+                "name": "Particle.frag",
+                "file": "default"
+            }
+        }
+    },
+    "meshes": {
+        "57": {
+            "link": {
+                "name": "Sphere.041",
+                "file": "assets\\models\\bomb_teamRed.gltf.glb"
+            }
+        },
+        "58": {
+            "link": {
+                "name": "Sphere.041.0",
+                "file": "assets\\models\\bomb_teamRed.gltf.glb"
+            }
+        },
+        "59": {
+            "link": {
+                "name": "Sphere.041.1",
+                "file": "assets\\models\\bomb_teamRed.gltf.glb"
+            }
+        },
+        "65": {
+            "link": {
+                "name": "Cube.15990",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            }
+        },
+        "125": {
+            "link": {
+                "name": "Cube.15991",
+                "file": "assets\\models\\floor_tile_large_rocks.gltf.glb"
+            }
+        },
+        "134": {
+            "link": {
+                "name": "Sphere.043",
+                "file": "assets\\models\\powerupBomb.gltf.glb"
+            }
+        },
+        "135": {
+            "link": {
+                "name": "Sphere.043.0",
+                "file": "assets\\models\\powerupBomb.gltf.glb"
+            }
+        },
+        "143": {
+            "link": {
+                "name": "Cube.1559",
+                "file": "assets\\models\\flag_teamYellow.gltf.glb"
+            }
+        },
+        "144": {
+            "link": {
+                "name": "Cube.1559.0",
+                "file": "assets\\models\\flag_teamYellow.gltf.glb"
+            }
+        },
+        "145": {
+            "link": {
+                "name": "Cube.1559.1",
+                "file": "assets\\models\\flag_teamYellow.gltf.glb"
+            }
+        }
+    },
+    "morphTargets": {},
+    "textures": {
+        "63": {
+            "link": {
+                "name": "texture_0",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            }
+        },
+        "71": {
+            "link": {
+                "name": "dungeon_texture.png",
+                "file": "assets\\textures\\dungeon_texture.png"
+            }
+        },
+        "123": {
+            "link": {
+                "name": "texture_0",
+                "file": "assets\\models\\floor_tile_large_rocks.gltf.glb"
+            }
+        }
+    },
+    "materials": {
+        "54": {
+            "link": {
+                "name": "Black",
+                "file": "assets\\models\\bomb_teamRed.gltf.glb"
+            }
+        },
+        "55": {
+            "link": {
+                "name": "Beige",
+                "file": "assets\\models\\bomb_teamRed.gltf.glb"
+            }
+        },
+        "56": {
+            "link": {
+                "name": "Red",
+                "file": "assets\\models\\bomb_teamRed.gltf.glb"
+            }
+        },
+        "64": {
+            "link": {
+                "name": "texture",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            }
+        },
+        "69": {
+            "name": "ColorMaterial",
+            "pipeline": "26",
+            "Phong": {
+                "diffuseTexture": "71"
+            }
+        },
+        "79": {
+            "name": "FontMaterial",
+            "pipeline": "41",
+            "Text": {
+                "font": "77",
+                "color": [
+                    0.0,
+                    0.2352941,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        "124": {
+            "link": {
+                "name": "texture",
+                "file": "assets\\models\\floor_tile_large_rocks.gltf.glb"
+            }
+        },
+        "132": {
+            "link": {
+                "name": "Black",
+                "file": "assets\\models\\powerupBomb.gltf.glb"
+            }
+        },
+        "133": {
+            "link": {
+                "name": "Beige",
+                "file": "assets\\models\\powerupBomb.gltf.glb"
+            }
+        },
+        "140": {
+            "link": {
+                "name": "Yellow",
+                "file": "assets\\models\\flag_teamYellow.gltf.glb"
+            }
+        },
+        "141": {
+            "link": {
+                "name": "Brown",
+                "file": "assets\\models\\flag_teamYellow.gltf.glb"
+            }
+        },
+        "142": {
+            "link": {
+                "name": "Metal",
+                "file": "assets\\models\\flag_teamYellow.gltf.glb"
+            }
+        }
+    },
+    "objects": {
+        "52": {
+            "name": "EmptyTile",
+            "components": [
+                {
+                    "type": "tile"
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "53": {
+            "name": "BombTile",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Bomb"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                -1.0,
+                0.0,
+                0.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "136": {
+            "link": {
+                "name": "powerupBomb",
+                "file": "assets\\models\\powerupBomb.gltf.glb"
+            },
+            "parent": "68"
+        },
+        "66": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "52",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "68": {
+            "name": "offset",
+            "parent": "53",
+            "translation": [
+                0.0,
+                0.25,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "73": {
+            "name": "Tile1",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Number1"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "74": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "73",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "126": {
+            "link": {
+                "name": "floor_tile_large_rocks",
+                "file": "assets\\models\\floor_tile_large_rocks.gltf.glb"
+            },
+            "parent": "131",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "76": {
+            "name": "Text",
+            "parent": "73",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "material": "79",
+                        "text": "1"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.05,
+                0.0
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                8.0,
+                7.9999809,
+                7.9999809
+            ]
+        },
+        "101": {
+            "name": "Tile2",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Number2"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                1.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "102": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "101",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "103": {
+            "name": "Text",
+            "parent": "101",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "material": "79",
+                        "text": "2"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.05,
+                0.0
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                8.0,
+                7.9999809,
+                7.9999809
+            ]
+        },
+        "104": {
+            "name": "Tile3",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Number3"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                2.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "105": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "104",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "106": {
+            "name": "Text",
+            "parent": "104",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "material": "79",
+                        "text": "3"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.05,
+                0.0
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                8.0,
+                7.9999809,
+                7.9999809
+            ]
+        },
+        "107": {
+            "name": "Tile4",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Number4"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                3.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "108": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "107",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "109": {
+            "name": "Text",
+            "parent": "107",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "material": "79",
+                        "text": "4"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.05,
+                0.0
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                8.0,
+                7.9999809,
+                7.9999809
+            ]
+        },
+        "110": {
+            "name": "Tile5",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Number5"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                4.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "111": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "110",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "112": {
+            "name": "Text",
+            "parent": "110",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "material": "79",
+                        "text": "5"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.05,
+                0.0
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                8.0,
+                7.9999809,
+                7.9999809
+            ]
+        },
+        "113": {
+            "name": "Tile6",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Number6"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                5.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "114": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "113",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "115": {
+            "name": "Text",
+            "parent": "113",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "material": "79",
+                        "text": "6"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.05,
+                0.0
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                8.0,
+                7.9999809,
+                7.9999809
+            ]
+        },
+        "116": {
+            "name": "Tile7",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Number7"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                6.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "117": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "116",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "118": {
+            "name": "Text",
+            "parent": "116",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "material": "79",
+                        "text": "7"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.05,
+                0.0
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                8.0,
+                7.9999809,
+                7.9999809
+            ]
+        },
+        "119": {
+            "name": "Tile8",
+            "components": [
+                {
+                    "type": "tile",
+                    "tile": {
+                        "tileType": "Number8"
+                    }
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "translation": [
+                7.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "120": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "119",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "121": {
+            "name": "Text",
+            "parent": "119",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "material": "79",
+                        "text": "8"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.05,
+                0.0
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                8.0,
+                7.9999809,
+                7.9999809
+            ]
+        },
+        "128": {
+            "name": "EmptyTile",
+            "components": [
+                {
+                    "type": "tile"
+                }
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "parent": "52"
+        },
+        "129": {
+            "link": {
+                "name": "floor_tile_large",
+                "file": "assets\\models\\floor_tile_large.gltf.glb"
+            },
+            "parent": "128",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ],
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "material": "69",
+                        "mesh": "65"
+                    }
+                }
+            ]
+        },
+        "130": {
+            "name": "CoveredTile",
+            "translation": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "collision",
+                    "collision": {
+                        "collider": "aabb",
+                        "aabb": {
+                            "extents": [
+                                0.5,
+                                0.0099999,
+                                0.5
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "cursor-target"
+                },
+                {
+                    "type": "tile-interactor"
+                }
+            ]
+        },
+        "131": {
+            "name": "offset",
+            "parent": "130",
+            "scaling": [
+                0.2399999,
+                0.24,
+                0.24
+            ]
+        },
+        "138": {
+            "name": "Flag",
+            "translation": [
+                -2.5,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "139": {
+            "name": "offset",
+            "parent": "138"
+        },
+        "146": {
+            "link": {
+                "name": "flag_teamYellow",
+                "file": "assets\\models\\flag_teamYellow.gltf.glb"
+            },
+            "parent": "139",
+            "scaling": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        }
+    },
+    "animations": {},
+    "skins": {},
+    "pipelines": {
+        "7": {
+            "link": {
+                "name": "Depth",
+                "file": "default"
+            }
+        },
+        "9": {
+            "link": {
+                "name": "DistanceFieldVector",
+                "file": "default"
+            }
+        },
+        "12": {
+            "link": {
+                "name": "Flat Opaque",
+                "file": "default"
+            }
+        },
+        "13": {
+            "link": {
+                "name": "Flat Opaque Textured",
+                "file": "default"
+            }
+        },
+        "21": {
+            "link": {
+                "name": "MeshVisualizer",
+                "file": "default"
+            }
+        },
+        "25": {
+            "link": {
+                "name": "Phong Opaque",
+                "file": "default"
+            }
+        },
+        "26": {
+            "link": {
+                "name": "Phong Opaque Textured",
+                "file": "default"
+            }
+        },
+        "27": {
+            "link": {
+                "name": "Phong Normalmapped",
+                "file": "default"
+            }
+        },
+        "28": {
+            "link": {
+                "name": "Phong Lightmapped",
+                "file": "default"
+            }
+        },
+        "30": {
+            "link": {
+                "name": "Physical Opaque",
+                "file": "default"
+            }
+        },
+        "31": {
+            "link": {
+                "name": "Physical Opaque Textured",
+                "file": "default"
+            }
+        },
+        "41": {
+            "link": {
+                "name": "Text",
+                "file": "default"
+            }
+        },
+        "45": {
+            "link": {
+                "name": "TileFeedback",
+                "file": "default"
+            }
+        },
+        "48": {
+            "link": {
+                "name": "Foliage",
+                "file": "default"
+            }
+        },
+        "49": {
+            "link": {
+                "name": "Particle",
+                "file": "default"
+            }
+        },
+        "50": {
+            "link": {
+                "name": "Sky",
+                "file": "default"
+            }
+        },
+        "51": {
+            "link": {
+                "name": "AtmosphericSky",
+                "file": "default"
+            }
+        }
+    },
+    "fonts": {
+        "77": {
+            "link": {
+                "name": "font_0",
+                "file": "assets\\fonts\\CarbonBlock.ttf"
+            }
+        }
+    },
+    "languages": {}
+}

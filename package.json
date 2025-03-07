@@ -1,0 +1,30 @@
+{
+    "name": "WLESweeper",
+    "version": "1.0.0",
+    "description": "My Wonderland project",
+    "main": "js/index.js",
+    "type": "module",
+    "module": "js/index.js",
+    "scripts": {
+        "build": "echo \"The 'build' script is run by the editor and should produce your application bundle\""
+    },
+    "keywords": [
+        "wonderland-engine"
+    ],
+    "prettier": "@wonderlandengine/prettier-config",
+    "dependencies": {
+        "@wonderlandengine/api": ">=1.3.0 <1.4.0",
+        "@wonderlandengine/components": "^1.2.2",
+        "@wonderlandengine/react-ui": "^0.2.4",
+        "@wonderlandengine/spatial-audio": "^1.2.4",
+        "@sorskoot/wonderland-components": "^1.3.0",
+        "gl-matrix": "^3.4.3"
+    },
+    "devDependencies": {
+        "@wonderlandengine/prettier-config": "^1.0.0",
+        "prettier": "3.5.3"
+    },
+    "overrides": {
+        "@wonderlandengine/api": "$@wonderlandengine/api"
+    }
+}
